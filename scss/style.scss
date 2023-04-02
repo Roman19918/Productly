@@ -1,7 +1,20 @@
 @import "base/nullstyle";
+
+//Abstracts
 @import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+//Base
 @import "base/base";
-@import "layout/wrapper";
+@import "base/buttons";
+@import "base/logo";
+
+//Layauts
+@import "layouts/wrapper";
+@import "layouts/header";
 
 //Components
+@import "components/promo";
 @import "components/contact-us";
+@import "components/navigation";
